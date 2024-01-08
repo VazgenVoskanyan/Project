@@ -1,0 +1,29 @@
+.mainList h1 {
+    font-size: 120px;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.list{
+    top: 220px;
+    left: 80px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list a{
+    color: #fff;
+    text-decoration: none;
+    size: 20px;
+    transition: .3s;
+}
+
+.list a:hover{
+    color: rgb(155, 155, 223);
+}

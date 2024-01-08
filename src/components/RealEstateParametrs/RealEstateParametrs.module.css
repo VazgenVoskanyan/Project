@@ -1,0 +1,37 @@
+.RealEstateParametrs{
+    margin-top: 30px;
+}
+
+
+.catms{
+    margin: 20px 0 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+ }
+
+ .stripc{
+    display: grid;
+    column-gap: 8px;
+ }
+ .catms .stripc {
+    padding: 10px 20px;
+    margin: 0 0 50px;
+    grid-template: auto auto auto/auto auto auto;
+    overflow: hidden;
+}
+
+.catms .stripc>div {
+    width: 300px;
+    margin: 5px 0;
+}
+
+.stripc a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.stripc a:hover{
+    color: blue;
+}

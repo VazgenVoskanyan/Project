@@ -1,0 +1,68 @@
+.firstFilterSection {
+    background-color: #fff;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.firstFilterSectionFirstPart {
+    margin: auto;
+    padding: 8px;
+    border-bottom: 1px solid #f2f2f2;
+    max-width: 90%;
+}
+
+.firstFilterSectionFirstPart div {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+}
+
+.firstFilterSectionFirstPart div input {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #888;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.firstFilterSectionFirstPart div span {
+    font-size: 15px;
+    color: #444;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.firstFilterSectionFirstPart div span:hover {
+    color: blue;
+}
+
+.firstFilterSectionSecondPart {
+    margin: auto;
+    padding: 8px;
+    max-width: 90%;
+}
+
+.firstFilterSectionSecondPart div {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+}
+
+.firstFilterSectionSecondPart div input {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #888;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.firstFilterSectionSecondPart div span {
+    font-size: 15px;
+    color: #444;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.firstFilterSectionSecondPart div span:hover {
+    color: blue;
+}
